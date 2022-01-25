@@ -8,7 +8,7 @@ class LogSchema extends Schema {
     this.create('logs', (table) => {
       table.increments()
       table.integer('user_id').unsigned().references('id').inTable('users')
-      table.integer('sell_id').unsigned().references('id').inTable('clients')
+      table.integer('sell_id')
       table.string('action')
       table.jsonb('old_state')
       table.jsonb('new_state')
