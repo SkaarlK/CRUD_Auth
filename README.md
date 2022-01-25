@@ -2,7 +2,6 @@
 Node.js + Adonis.js MVC with Bearer Token (JWT) Authentication middleware
 
 # Database
-///////////////////////////////
 //You have to install your DB client like 'npm i pg' for PostgreSQL.
 //default: pg
 //or: sqlite/mysql
@@ -14,7 +13,6 @@ Node.js + Adonis.js MVC with Bearer Token (JWT) Authentication middleware
 //DB-port: 5432
 //DB: SKRUD
 //Edit a lot of things on .env
-///////////////////////////////
 
 # ROUTES
 POST:
